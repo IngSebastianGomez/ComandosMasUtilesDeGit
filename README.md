@@ -1,5 +1,6 @@
 # Comandos mas útiles de Git
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/512px-Git-logo.svg.png)
+
 En este repositorio, realizaremos un breve recorrido por los comandos más utilizados para trabajar con Git y gestionar adecuadamente la versión de nuestro código alojado en GitHub. Además, exploraremos cómo Git se ha convertido en una herramienta fundamental en el mundo del desarrollo de software, impulsando la colaboración y la innovación en proyectos de código abierto.
 ## **Introducción**
 Antes de adentrarnos en los detalles de Git y su funcionamiento, es importante realizar un breve repaso para aquellos que puedan haber llegado hasta aquí sin tener conocimiento previo sobre este sistema de control de versiones y cuál es su propósito.
@@ -117,7 +118,7 @@ También hay un comando de acceso directo que te permite crear y cambiar a una r
 ```
 git checkout -b <nombre-de-tu-rama>
 ```
-Este comando crea una nueva rama en su local (-b significa rama) y marca la rama como nueva justo después de que se haya creado, si observas bien, el cambio se encuentra en -b).
+Este comando crea una nueva rama en su local (-b significa rama) y marca la rama como nueva justo después de que se haya creado, si observas bien, el cambio se encuentra en -b.
 
 ### Etiquetado
 `git tag` etiqueta puntos específicos en la historia de un repositorio.
@@ -140,6 +141,8 @@ O bien:
 ```
 git push -u origin <nombre_de_rama>
 ```
+y listo.
+
 > [!NOTE] Importante: 
 > Git push solo carga los cambios que están confirmados.
 
@@ -148,6 +151,7 @@ El comando `git pull` se usa para obtener actualizaciones del repositorio remoto
 ```
 git pull <remote>
 ```
+
 > [!WARNING]
 > Esta operación puede causar conflictos que debes resolver manualmente.
 
