@@ -143,7 +143,7 @@ git push -u origin <nombre_de_rama>
 ```
 y listo.
 
-> [!NOTE] Importante: 
+> [!NOTE] 
 > Git push solo carga los cambios que están confirmados.
 
 ### Git pull
